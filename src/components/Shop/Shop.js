@@ -24,16 +24,24 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    //event handler for choose 1 for me button
+    const randomBookSelect = () => {
+
+        let randomBook = [];
+        randomBook[0] = cart[Math.floor(Math.random() * cart.length)];
+        setCart(randomBook);
+    }
+
     return (
         <div id='shop-container' className='grid md:flex'>
-            <div id='product-container' className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10 md:w-4/5 px-12'>
+            <div id='product-container' className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10 lg:w-4/5 md:w-3/4 px-12'>
                 {
                     books.map(book => <Book book={book} key={book.id} addToCartHandler={addToCartHandler}></Book>)
                 }
 
             </div>
-            <div id='cart-container' className='md:w-1/5 order-first md:order-last bg-slate-100'>
-                <Cart cart={cart}></Cart>
+            <div id='cart-container' className='lg:w-1/5 md:w-1/4 order-first md:order-last bg-slate-100'>
+                <Cart cart={cart} randomBookSelect={randomBookSelect}></Cart>
             </div>
         </div>
     );

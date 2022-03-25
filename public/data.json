@@ -1,62 +1,74 @@
 [
     {
         "id": "623de5394aebb40517f35742",
-        "picture": "https://ibb.co/h27Mgx7",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/51hb7s69wrL._SX355_BO1,204,203,200_.jpg",
         "price": 20,
         "name": "The Things You Can See Only When You Slow Down"
     },
     {
         "id": "623de5394a12e8b916374886",
-        "picture": "https://ibb.co/mXrmQm3",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/41aoszyINeL._SX322_BO1,204,203,200_.jpg",
         "price": 15,
         "name": "The Midnight Library"
     },
     {
         "id": "623de539a25cd86a11df7197",
-        "picture": "https://ibb.co/djZpnVm",
+        "picture": "https://images-eu.ssl-images-amazon.com/images/I/41yu2qXhXXL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
         "price": 13,
         "name": "Sapiens: A Brief History of Humankind"
     },
     {
         "id": "623de53999dcc593d5186c42",
-        "picture": "https://ibb.co/nfhcK0x",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/31ubkQ+t9dL._SY344_BO1,204,203,200_.jpg",
         "price": 10,
         "name": "Outliers"
     },
     {
         "id": "623de539c42a686ce7557560",
-        "picture": "https://ibb.co/BCk6gFk",
+        "picture": "https://images-eu.ssl-images-amazon.com/images/I/41iovg2T14L._SY264_BO1,204,203,200_QL40_ML2_.jpg",
         "price": 18,
         "name": "Normal People"
     },
     {
         "id": "623de53963e2b6ad23b7f2a2",
-        "picture": "https://ibb.co/BnxhN1P",
+        "picture": "https://images-eu.ssl-images-amazon.com/images/I/51T8OXMiB5L._SY264_BO1,204,203,200_QL40_ML2_.jpg",
         "price": 25,
         "name": "Ikigai"
     },
     {
         "id": "623de5399ce8e3f46b98490f",
-        "picture": "https://ibb.co/h81b2jG",
+        "picture": "https://images-eu.ssl-images-amazon.com/images/I/410JsfVVzKL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
         "price": 22,
         "name": "Educated: A Memoir"
     },
     {
         "id": "623de539ca67362f5a0299a2",
-        "picture": "https://ibb.co/H7gt3gR",
+        "picture": "https://images-eu.ssl-images-amazon.com/images/I/41mOZ1xLFgL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
         "price": 18,
         "name": "Brief Answers to the Big Questions"
     },
     {
         "id": "623de539c53da43b6c28b048",
-        "picture": "https://ibb.co/wS1dFNz",
+        "picture": "https://images-eu.ssl-images-amazon.com/images/I/51S7KOWir7L._SY264_BO1,204,203,200_QL40_ML2_.jpg",
         "price": 15,
         "name": "Atomic Habits"
     },
     {
         "id": "623de5397fba051d867abbb7",
-        "picture": "https://ibb.co/tb4fT5G",
+        "picture": "https://images-eu.ssl-images-amazon.com/images/I/41EATHVLJRL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
         "price": 12,
         "name": "12 Rules for Life"
+    },
+    {
+        "id": "623db5357fbf452d267abcb7",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/41qaK0I74bL._SX323_BO1,204,203,200_.jpg",
+        "price": 15,
+        "name": "Think like a Monk"
+    },
+    {
+        "id": "623ab1335faf472s967fbwb2",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/41RfHWoMEQS._SX308_BO1,204,203,200_.jpg",
+        "price": 20,
+        "name": "Beautiful World, Where Are You"
     }
 ]

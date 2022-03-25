@@ -1,0 +1,62 @@
+[
+    {
+        "id": "623de5394aebb40517f35742",
+        "picture": "https://ibb.co/h27Mgx7",
+        "price": 20,
+        "name": "The Things You Can See Only When You Slow Down"
+    },
+    {
+        "id": "623de5394a12e8b916374886",
+        "picture": "https://ibb.co/mXrmQm3",
+        "price": 15,
+        "name": "The Midnight Library"
+    },
+    {
+        "id": "623de539a25cd86a11df7197",
+        "picture": "https://ibb.co/djZpnVm",
+        "price": 13,
+        "name": "Sapiens: A Brief History of Humankind"
+    },
+    {
+        "id": "623de53999dcc593d5186c42",
+        "picture": "https://ibb.co/nfhcK0x",
+        "price": 10,
+        "name": "Outliers"
+    },
+    {
+        "id": "623de539c42a686ce7557560",
+        "picture": "https://ibb.co/BCk6gFk",
+        "price": 18,
+        "name": "Normal People"
+    },
+    {
+        "id": "623de53963e2b6ad23b7f2a2",
+        "picture": "https://ibb.co/BnxhN1P",
+        "price": 25,
+        "name": "Ikigai"
+    },
+    {
+        "id": "623de5399ce8e3f46b98490f",
+        "picture": "https://ibb.co/h81b2jG",
+        "price": 22,
+        "name": "Educated: A Memoir"
+    },
+    {
+        "id": "623de539ca67362f5a0299a2",
+        "picture": "https://ibb.co/H7gt3gR",
+        "price": 18,
+        "name": "Brief Answers to the Big Questions"
+    },
+    {
+        "id": "623de539c53da43b6c28b048",
+        "picture": "https://ibb.co/wS1dFNz",
+        "price": 15,
+        "name": "Atomic Habits"
+    },
+    {
+        "id": "623de5397fba051d867abbb7",
+        "picture": "https://ibb.co/tb4fT5G",
+        "price": 12,
+        "name": "12 Rules for Life"
+    }
+]

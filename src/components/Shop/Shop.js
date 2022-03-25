@@ -20,16 +20,32 @@ const Shop = () => {
     //event handler for add to cart button of books
     const addToCartHandler = (book) => {
 
-        const newCart = [...cart, book];
-        setCart(newCart);
+        if (cart.includes(book)) {
+            alert('Already added. Cannot add twice!');
+        }
+        else {
+            const newCart = [...cart, book];
+            if (newCart.length <= 4) {
+                setCart(newCart);
+            }
+            else {
+                alert('Cannot add more than 4 books!')
+            }
+        }
+
     }
 
     //event handler for choose 1 for me button
-    const randomBookSelect = () => {
+    const randomBookSelector = () => {
 
         let randomBook = [];
         randomBook[0] = cart[Math.floor(Math.random() * cart.length)];
         setCart(randomBook);
+    }
+
+    //event handler for choose again button
+    const chooseAgainHandler = () => {
+        setCart([]);
     }
 
     return (
@@ -41,7 +57,7 @@ const Shop = () => {
 
             </div>
             <div id='cart-container' className='lg:w-1/5 md:w-1/4 order-first md:order-last bg-slate-100'>
-                <Cart cart={cart} randomBookSelect={randomBookSelect}></Cart>
+                <Cart cart={cart} randomBookSelector={randomBookSelector} chooseAgainHandler={chooseAgainHandler}></Cart>
             </div>
         </div>
     );

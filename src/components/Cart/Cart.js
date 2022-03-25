@@ -1,9 +1,7 @@
 import React from 'react';
 import AddedProduct from '../AddedProduct/AddedProduct';
 
-const Cart = ({ cart, randomBookSelect }) => {
-
-
+const Cart = ({ cart, randomBookSelector, chooseAgainHandler }) => {
 
     return (
         <div>
@@ -15,8 +13,8 @@ const Cart = ({ cart, randomBookSelect }) => {
                 }
             </div>
             <div className='flex px-3 justify-between mb-5 mx-4 md:mx-0'>
-                <button onClick={randomBookSelect} className='bg-black text-white p-2 font-medium rounded-md'>Choose 1 for me</button>
-                <button className='bg-black text-white p-2 font-medium rounded-md'>Choose Again</button>
+                <button onClick={randomBookSelector} className='bg-black text-white p-2 font-medium rounded-md'>Choose 1 for me</button>
+                <button onClick={chooseAgainHandler} className='bg-black text-white p-2 font-medium rounded-md'>Choose Again</button>
             </div>
         </div>
     );

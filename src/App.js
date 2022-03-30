@@ -10,8 +10,6 @@ function App() {
     <div className="App">
       <Header></Header>
       <Shop></Shop>
-      <HowReactWorks></HowReactWorks>
-      <StateVsProps></StateVsProps>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import AddedProduct from '../AddedProduct/AddedProduct';
 
-const Cart = ({ cart, randomBookSelector, chooseAgainHandler }) => {
+const Cart = ({ cart, randomBookSelector, chooseAgainHandler, handleProductDelete }) => {
 
     return (
         <div>
@@ -9,7 +9,7 @@ const Cart = ({ cart, randomBookSelector, chooseAgainHandler }) => {
             <h4 className='texl-xl font-bold my-2 md:my-5'>Choose {cart.length} Books</h4>
             <div className='px-3 mb-5'>
                 {
-                    cart.map(addedProduct => <AddedProduct addedProduct={addedProduct}></AddedProduct>)
+                    cart.map(addedProduct => <AddedProduct addedProduct={addedProduct} handleProductDelete={handleProductDelete}></AddedProduct>)
                 }
             </div>
             <div className='flex px-3 justify-between mb-5 mx-4 md:mx-0'>
